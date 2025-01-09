@@ -226,3 +226,24 @@ nav .circle.active i {
     color: yellow;
     /* Warna ikon saat aktif */
 }
+
+/* Responsivitas untuk layar kecil */
+@media (max-width: 499px) {
+    nav {
+        padding: 5px 0;
+    }
+
+    #icon-nav {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    #icon-nav a {
+        width: 30px;
+        height: 30px;
+    }
+
+    #icon-nav .circle i {
+        font-size: 16px;
+    }
+}
